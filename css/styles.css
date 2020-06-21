@@ -12,6 +12,10 @@
     --third-color: #A6AA96;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 ul li{
     list-style: none;
 }
@@ -27,6 +31,8 @@ header{
     width: 100%;
     height: 88px;
     background-color: #949496;
+    position: fixed;
+    z-index: 1;
 }
 
 header nav ul li{
@@ -50,12 +56,13 @@ header ul li a:hover{
 section.container-info{
     width: 100%;
     height: 500px;
-    position: absolute;
-    background-color: var(--primary-color)
+    padding-top: 86px;
+    background-color: var(--primary-color);
 }
+
 section div.info{
     width: 80%;
-    margin: 70px auto 30px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,4 +75,54 @@ section div.info h1, section div.info h2{
     color: var(--second-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+section.container-about{
+    width: 100%;
+    height: 730px;
+}
+
+section div.about-content{
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.container-about h2{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 35px
+}
+
+section.container-about h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--second-color);
+    margin:8px auto;
+}
+
+section div.about-text{
+    max-width: 570px;
+    height: 380px;
+    padding: 50px 35px;
+    background: var(--primary-color);
+}
+
+section div.about-text p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+section div.about-text p:first-child{
+    line-height: 50px;
 }
