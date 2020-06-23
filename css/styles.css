@@ -126,3 +126,110 @@ section div.about-text p{
 section div.about-text p:first-child{
     line-height: 50px;
 }
+
+section.container-portfolio{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+section div.portfolio-content h2{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 35px 0 70px 0;
+}
+
+section div.portfolio-content h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--second-color);
+    margin:8px auto;
+}
+
+ section div.portfolio-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div.projects{
+    padding: 0 0 60px 45px;
+}
+
+section div.projects img{
+    margin: 10px 10px;
+}
+
+section.container-event{
+    width: 100%;
+    height: 850px;
+}
+
+section.container-event h2{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 35px 0 70px 0;
+}
+
+section.container-event h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--second-color);
+    margin:8px auto;
+}
+
+section div.event-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div.event-content img{
+    padding: 0 0 50px 105px;
+}
+
+section.container-contact{
+    width: 100%;
+    height: 720px;
+    background-color: var(--primary-color);
+}
+
+section.container-contact h2{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 35px 0 70px 0;
+}
+
+section.container-contact h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--second-color);
+    margin:8px auto;
+}
+
+section div.contact-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div.contact-content form label{
+    display:block;
+}
