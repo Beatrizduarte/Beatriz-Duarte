@@ -226,10 +226,71 @@ section div.contact-content{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 section div.contact-content form label{
     display:block;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+section div.contact-content form input{
+    background-color: var(--primary-color);
+    width: 450px;
+    padding: 10px 5px 10px 5px;
+    font-size: 18px;
+    border: 3px solid #A6AA96;
+    outline: none;
+}
+
+section div.contact-content form textarea{
+    background-color: var(--primary-color);
+    width: 450px;
+    height: 120px;
+    padding: 13px 5px 16px 5px;
+    font-size: 20px;
+    border: 3px solid #A6AA96;
+    outline: none;
+}
+
+section div.contact-content form button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin-top:35px;
+    background-color: var(--primary-color);
+    border: 3px solid #A6AA96;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+section div.contact-info{
+    width: 370px;
+    height: 420px;
+    margin: -28px auto 0 auto; 
+}
+
+section div.contact-info h3{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #484B4D;
+    margin-bottom: 40px;
+}
+
+section div.contact-info p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #484B4D;
+    text-align: center;
+}
+
+section div.contact-info img{
+    margin-top: 40px;
 }

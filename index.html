@@ -51,7 +51,7 @@
                     <h2 id="portfolio">Portfólio</h2>
                     <div class="projects">
                         <img src="./img/Ecoleta.png" alt="Projeto Ecoleta">
-                        <img src="./img/Bikcraft.png" alt="Projeto Bikcraft">
+                        <a href="https://github.com/Beatrizduarte/Bikcraft"><img src="./img/Bikcraft.png" alt="Projeto Bikcraft"></a>
                         <img src="./img/BeTheHero.png" alt="Projeto Be The Hero">
                         <img src="./img/AirCnC.png" alt="Projeto AirCnC">
                         <img src="./img/LinkedIn.png" alt="Projeto LinkedIn">
@@ -69,26 +69,34 @@
                 <h2 id="contact">Contato</h2>
                 <div class="contact-content">
                     <form>
-                        <label>Nome
-                            <input type="text" name="name"> 
-                        </label>
-                        <label>Email
-                            <input type="text" name="name"> 
-                        </label>
-                        <label>Mensagem
-                           <textarea></textarea>
-                        </label>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name"> 
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"> 
+                        <label for="message">Mensagem</label>
+                        <textarea id="message"></textarea>
                         <button>Enviar</button>
                     </form>
-                    <div>
+                    <div class="contact-info">
                         <h3>Dados</h3>
                         <p>beatriznduarte1@gmail.com</p>
                         <p>São Paulo - SP</p>
                         <p>Brasil - Terra - Via Lactea</p>
-                        <img src="./img/ilustration-contact.png" alt="ilustração de menina segurando uma balão de dialogo">
+                        <img src="./img/ilustration-contact.svg" alt="ilustração de menina segurando uma balão de dialogo">
                     </div>
                 </div>
             </section>
         </main>
+        <footer>
+            <div>
+                <div class="footer-info">
+                    <p>Beatriz Duarte</p>
+                    <p>Desenvolvedora Full-Stack</p>
+                </div>
+                <div class="redes">
+
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
