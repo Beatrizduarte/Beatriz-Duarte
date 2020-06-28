@@ -1,22 +1,25 @@
 @media (max-width: 900px){
-
     header nav ul li{
         font-size:18px;
-        padding-left: 80px;
+        padding-left: 70px;
     }
 
     section div.info{
-        width: 95%;
+        width: 90%;
         margin-top: 75px;
     }
 
-    section div.about-content{
-        width: 100%;
+    section div.info-text{
+        margin-left: 10px;
     }
 
     section div.info h1, section div.info h2{
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    section div.info-text{
+        white-space: pre;
     }
 
     section div.info-img{
@@ -27,8 +30,152 @@
         width: 95%;
         height: auto;
     }
+
+    section.container-about{
+        height: 540px;
+    }
+
+    section div.about-content{
+        width: 100%;
+    }
+
+    section div.about-content{
+        width: 100%;
+        margin: 70px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    section.container-about h2{
+        font-size: 32px;
+    }
+
+    section div.about-text p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    section div.about-text{
+        max-width: 430px;
+        height: 300px;
+        padding: 25px 17px;
+    }
+
+    section div.portfolio-content h2{
+        font-size: 32px;
+    }
+
+    section div.projects{
+        padding:0 0 45px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.container-event{
+        width: 80%;
+        margin: 0 auto;
+        height: 660px;
+    }
+
+    section.container-event h2{
+        font-size: 32px;
+    }
+
+    section.container-event h2::after{
+        width: 55px;
+    }
+
+    section div.event-content img{
+        padding: 0 0 50px 0;
+    }
+
+    section div.contact-content {
+        width: 100%;
+    }
+
+    section.container-contact h2{
+        font-size: 32px;
+    }
+
+    section div.contact-content form{
+        margin-left: 20px;
+    }
+
+    section div.contact-content form label{
+        font-size: 16px;
+    }
+
+    section div.contact-content form input{
+        width: 350px;
+        font-size: 16px;
+    }
+
+    section div.contact-content form textarea{
+        width: 350px;
+        font-size: 16px;
+    }
+
+    section div.contact-info h3{
+        font-size: 16px;
+    }
+
+    section div.contact-info p{
+        font-size: 16px;
+    }
+
+    section div.contact-info img{
+        margin-left: 15px;
+    }
+
+
 }
 
 @media (max-width: 760px){
+    header nav ul li{
+        font-size:18px;
+        padding-left: 55px;
+    }
 
+    section.container-info{
+        height: 400px;
+    }
+
+    section div.info{
+        margin-top: 45px;
+    }
+
+    section div.info-img img{
+        display: none;
+    }
+
+    section div.info h1, section div.info h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    section div.info-text{
+        white-space: pre;
+        margin: 0 auto;
+    }
+
+    section.container-contact{
+        height: 1200px;
+    }
+
+    section div.contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div.contact-info{
+        margin-top: 50px;
+    }
+    
+
+}
+
+@media (max-width: 600px){
+    
 }

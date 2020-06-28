@@ -109,6 +109,11 @@ section.container-about h2::after{
     margin:8px auto;
 }
 
+section div.info-img img{
+    width: 100%;
+    height: auto;
+}
+
 section div.about-text{
     max-width: 570px;
     height: 380px;
@@ -126,6 +131,12 @@ section div.about-text p{
 section div.about-text p:first-child{
     line-height: 50px;
 }
+
+section div.about-img img{
+    width: 100%;
+    height: auto;
+}
+
 
 section.container-portfolio{
     width: 100%;
@@ -194,6 +205,8 @@ section div.event-content{
 }
 
 section div.event-content img{
+    width: 100%;
+    height: auto;
     padding: 0 0 50px 105px;
 }
 
@@ -292,6 +305,8 @@ section div.contact-info p{
 }
 
 section div.contact-info img{
+    width: 100%;
+    height: auto;
     margin-top: 40px;
     margin-left: 34px;
 }
